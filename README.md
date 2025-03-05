@@ -37,6 +37,8 @@ Generative Adversarial Networks (GANs) are a class of deep learning models desig
 - Evaluate the model's performance in generating high-quality images.
 - Optimize the training process using appropriate loss functions and optimizers.
 
+![Realistic Fashion Image Generation](images/gan.png)
+
 ## Methodology
 
 ### Dataset
@@ -98,8 +100,8 @@ Generative Adversarial Networks (GANs) are a class of deep learning models desig
 
 ---
 
-**Project Completed by:** [Your Name]
-**Date:** [Project Completion Date]
+**Project Completed by:** [Sanjan B M]
+**Date:** [05-03-2025]
 
 ---
 
@@ -136,10 +138,16 @@ Generative Adversarial Networks (GANs) are a class of deep learning models desig
 ### Tips for Training GANs
 
 1. **Start Simple**: Begin with a basic architecture and gradually add complexity.
+
 2. **Monitor Loss**: Keep an eye on both generator and discriminator losses to ensure balanced training.
+
 3. **Visualize Outputs**: Regularly check the generated images to assess quality improvements.
+
 4. **Experiment with Hyperparameters**: Adjust learning rates, batch sizes, and other parameters to optimize performance.
+
 5. **Use Normalization**: Normalize inputs to stabilize training and improve convergence.
+
+![Realistic Fashion Image Generation](images/trainpng)
 
 ---
 
