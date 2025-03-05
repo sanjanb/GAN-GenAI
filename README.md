@@ -147,7 +147,7 @@ Generative Adversarial Networks (GANs) are a class of deep learning models desig
 
 5. **Use Normalization**: Normalize inputs to stabilize training and improve convergence.
 
-![Realistic Fashion Image Generation](images/trainpng)
+![Realistic Fashion Image Generation](images/train.png)
 
 ---
 
@@ -162,9 +162,9 @@ Generative Adversarial Networks (GANs) are a class of deep learning models desig
 ### Contact Information
 
 For any inquiries or collaborations, feel free to reach out:
-- Email: [your.email@example.com](mailto:your.email@example.com)
-- GitHub: [YourGitHubUsername](https://github.com/YourGitHubUsername)
-- LinkedIn: [YourLinkedInProfile](https://www.linkedin.com/in/yourprofile)
+- Email: [your.email@example.com](mailto:sanjanacharaya1234@gmail.com)
+- GitHub: [YourGitHubUsername](https://github.com/sanjanb)
+- LinkedIn: [YourLinkedInProfile](https://www.linkedin.com/in/sanjan-bm)
 
 ---
 
