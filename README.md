@@ -1,5 +1,33 @@
 # Fashion Item Generator using GANs
 
+[Introduction](#introduction)
+
+[Objectives](#objectives)
+
+[Methodology](#methodology)
+
+[Results and Discussion](#results-and-discussion)
+
+[Conclusion and Future Work](#conclusion-and-future-work)
+
+[Fashion Item Examples](#fashion-item-examples)
+
+[Training Progress Visualization](#training-progress-visualization)
+
+[Tips for Training GANs](#tips-for-training-gans)
+
+[Acknowledgments](#acknowledgments)
+
+[Contact Information](#contact-information)
+
+[Technical Challenges and Solutions](#technical-challenges-and-solutions)
+
+[Additional Resources](#additional-resources)
+
+[Implementation Details](#implementation-details)
+
+---
+
 ## Introduction
 Generative Adversarial Networks (GANs) are a class of deep learning models designed for generating synthetic data. This project focuses on developing a GAN to generate realistic fashion items inspired by the Fashion MNIST dataset, which consists of grayscale images of various clothing items such as shirts, shoes, and dresses.
 
