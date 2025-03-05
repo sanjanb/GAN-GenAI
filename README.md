@@ -133,6 +133,9 @@ Generative Adversarial Networks (GANs) are a class of deep learning models desig
 | 40    | 0.450          | 0.740              |
 | 50    | 0.400          | 0.750              |
 
+![Realistic Fashion Image Generation](images/GAN.png)
+
+
 ---
 
 ### Tips for Training GANs
