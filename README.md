@@ -162,9 +162,9 @@ Generative Adversarial Networks (GANs) are a class of deep learning models desig
 ### Contact Information
 
 For any inquiries or collaborations, feel free to reach out:
-- Email: [your.email@example.com](mailto:sanjanacharaya1234@gmail.com)
-- GitHub: [YourGitHubUsername](https://github.com/sanjanb)
-- LinkedIn: [YourLinkedInProfile](https://www.linkedin.com/in/sanjan-bm)
+- Email: [sanjanacharaya1234@gmail.com](mailto:sanjanacharaya1234@gmail.com)
+- GitHub: [sanjanb](https://github.com/sanjanb)
+- LinkedIn: [Sanjan BM](https://www.linkedin.com/in/sanjan-bm)
 
 ---
 
