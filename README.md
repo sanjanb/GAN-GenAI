@@ -14,31 +14,42 @@ Generative Adversarial Networks (GANs) are a class of deep learning models desig
 ### Dataset
 - **Source**: Fashion MNIST
 - **Content**: 60,000 training images and 10,000 test images.
-- **Preprocessing**: Normalized pixel values to the range [-1, 1].
+- **Preprocessing**:
+  - **Normalization**: Pixel values are normalized to the range [-1, 1] to match the Tanh activation function used in the generator's output layer.
+  - **Resizing**: The images remain at their original size of 28x28 pixels.
+  - **Channel Dimension**: Added a channel dimension to accommodate grayscale images, resulting in a shape of (28, 28, 1).
 
 ### Model Architecture
 
 #### Generator Model
 - **Purpose**: Transform a random noise vector into a meaningful image.
+- **Input**: 100-dimensional latent vector.
 - **Layers**:
   - Fully connected layer to reshape input noise.
-  - Three transposed convolution layers with ReLU activation.
+  - Three transposed convolution layers with ReLU activation:
+    - **Filters**: 64, 128, 256
   - Final convolution layer with Tanh activation to generate the output image.
+  - **Batch Normalization**: Not used in this implementation.
 
 #### Discriminator Model
 - **Purpose**: Distinguish between real and fake images.
 - **Layers**:
   - Fully connected layer to flatten input images.
-  - Two dense layers with LeakyReLU activation and dropout.
+  - Two dense layers with LeakyReLU activation and dropout:
+    - **Units**: 256, 128
   - Final output layer with sigmoid activation for binary classification.
+  - **Batch Normalization**: Not used in this implementation.
 
 ### Training Process
 - **Generator**: Takes a random noise vector and generates an image.
 - **Discriminator**: Classifies real images (from the dataset) and fake images (from the generator).
 - **Loss Functions**: Binary Cross-Entropy Loss for both models.
 - **Optimizer**: Adam optimizer with a learning rate of 1e-4.
+  - **Reason for Adam**: Chosen for its adaptive learning rate capabilities, which are beneficial for training GANs where the loss landscape can be complex and challenging.
 - **Epochs**: 50
 - **Batch Size**: 128
+- **Gradient Clipping/Regularization**: Not applied in this implementation.
+- **Data Augmentation**: No augmentation techniques were used.
 
 ### Training Implementation
 - **Visualization**: Periodic visualization of generated images to track performance.
@@ -59,8 +70,8 @@ Generative Adversarial Networks (GANs) are a class of deep learning models desig
 
 ---
 
-**Project Completed by:** [Sanjan B M]
-**Date:** [05-03-2025]
+**Project Completed by:** [Your Name]
+**Date:** [Project Completion Date]
 
 ---
 
@@ -115,9 +126,9 @@ Generative Adversarial Networks (GANs) are a class of deep learning models desig
 ### Contact Information
 
 For any inquiries or collaborations, feel free to reach out:
-- Email: [your.email@example.com](mailto:sanjanacharaya1234@gmail.com)
-- GitHub: [YourGitHubUsername](https://github.com/sanjanb)
-- LinkedIn: [YourLinkedInProfile](https://www.linkedin.com/in/sanjan-bm)
+- Email: [your.email@example.com](mailto:your.email@example.com)
+- GitHub: [YourGitHubUsername](https://github.com/YourGitHubUsername)
+- LinkedIn: [YourLinkedInProfile](https://www.linkedin.com/in/yourprofile)
 
 ---
 
@@ -163,6 +174,9 @@ For any inquiries or collaborations, feel free to reach out:
 - **Performance Monitoring**:
   - Tracked loss values and the discriminator's ability to distinguish between real and fake images.
   - Evaluated the generator's performance based on the quality and diversity of the generated images.
+
+- **Technique**:
+  - This project utilizes a GAN architecture with dense neural networks to generate fashion items.
 
 ---
 
