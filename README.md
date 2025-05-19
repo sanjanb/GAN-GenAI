@@ -1,5 +1,5 @@
 # Fashion Item Generator using GANs
-![banner image](/image/gan1.png)
+![banner image](/images/gan1.png)
 
 [Introduction](#introduction)
 
